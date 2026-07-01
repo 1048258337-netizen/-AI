@@ -10,7 +10,7 @@ export async function POST(req: Request) {
   const { messages } = await req.json();
   const systemPrompt = {
     role: 'system',
-    content: '你是胡素瑜AI助手，由字节跳动火山方舟提供服务，回答简洁友好。'
+    content: '你是王浩儒AI助手，由字节跳动火山方舟提供服务，回答简洁友好。'
   };
   const fullMessages = [systemPrompt, ...messages];
 
