@@ -52,7 +52,7 @@ export default function Home() {
 
   return (
     <div className="p-10">
-      <h1 className="text-4xl font-bold mb-8">我是胡素瑜，请问有什么可以帮到你~</h1>
+      <h1 className="text-4xl font-bold mb-8">我是王浩儒，请问有什么可以帮到你~</h1>
       <div className="h-[65vh] overflow-y-auto mb-6 border p-4 rounded">
         {messages.map((item, idx) => (
           <div key={idx} className="mb-4">
